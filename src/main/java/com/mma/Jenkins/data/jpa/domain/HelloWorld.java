@@ -5,5 +5,9 @@ public class HelloWorld {
 	public String sayHelloWorld() {
 		return "Hello World !";
 	}
+	
+	public String sayHelloWorld(String msg) {
+		return "Hello "+msg;
+	}
 
 }
